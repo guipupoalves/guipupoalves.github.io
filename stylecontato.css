@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(/imagens/back27.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.logo i{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    color: rgb(255, 0, 106);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 20%;
+    gap: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navbar a{
+   color: white;
+   font-size: 30px;
+}
+
+.navbar a:hover{
+    color:rgb(255, 0, 106);
+    transition: 0.2s all;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: white;
+    font-size: 50px;
+}
+
+.text h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+.text span{
+    color: rgb(255, 0, 106);
+}
+
+.text p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.redes a{
+    color: rgb(255, 0, 106);
+    font-size: 60px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#uni{
+    font-size: 35px;
+
+}
+
+#descricao{
+    font-size: 25px;
+}
+
+#links{
+    color: white;
+}
