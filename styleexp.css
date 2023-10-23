@@ -102,3 +102,91 @@ header{
 #descricao{
     font-size: 25px;
 }
+
+@media screen and (max-width: 768px){
+
+    section, aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    .background{
+        width: fit-content;
+        height: 100vh;
+    }
+
+    .navbar{
+        margin-left: 5px;
+        gap: 1rem;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .navbar a{
+        font-size: 15px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .container-text{
+        padding: 0;
+    }
+
+    .text h3{
+        margin-left: 5px;
+        margin-top: 40px;
+        font-size: 20px;
+        display: block;
+    }
+
+    .text h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    *{
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .container-text p{
+        font-size: 20px;
+        float: right;
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-text h3{
+        padding: 0;
+        margin-left: 38%;
+    }
+
+    #exp{
+        font-size: 24px;
+    }
+
+    #descricao{
+        font-size: 18px;
+    }
+
+    .foto{
+        margin-left: 50%;
+        margin-right: 38%;
+        width: 100px;
+        height: 100px;
+    }
+
+    header{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .redes a{
+        font-size: 50px;
+        margin-left: 40%;
+    }
+}
