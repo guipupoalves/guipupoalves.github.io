@@ -103,8 +103,9 @@ header{
 @media screen and (max-width: 768px){
 
     .background{
-        width: fit-content;
-        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed; 
+        height: 1000px;
     }
 
     .navbar{
